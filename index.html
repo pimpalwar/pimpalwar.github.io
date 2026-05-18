@@ -1,37 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shantanu Pimpalwar — Senior Software Engineer</title>
+  <meta name="description" content="Shantanu Pimpalwar — Cloud-native and AI platform engineer. Java, Spring, React, AWS, Generative AI." />
+  <meta name="author" content="Shantanu Pimpalwar" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shantanu Pimpalwar" />
+  <meta property="og:description" content="Cloud-native and AI platform engineer. Java, Spring, React, AWS, Generative AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shantanupimpalwar.com" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>S</text></svg>" />
+
+  <style>
+    :root {
+      --bg: #0a0a0b;
+      --bg-2: #111114;
+      --fg: #e9e9ec;
+      --muted: #8a8a92;
+      --accent: #7cc4ff;
+      --border: #1f1f24;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.55;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background:
+        radial-gradient(1200px 600px at 20% 0%, rgba(124, 196, 255, 0.06), transparent 60%),
+        radial-gradient(900px 500px at 100% 100%, rgba(124, 196, 255, 0.04), transparent 60%),
+        var(--bg);
+    }
+
+    main {
+      max-width: 640px;
+      width: 100%;
+    }
+
+    .eyebrow {
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      font-size: clamp(2.25rem, 5vw, 3.25rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+      max-width: 36rem;
+    }
+
+    .tagline strong {
+      color: var(--fg);
+      font-weight: 500;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 3rem;
+    }
+
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1rem;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--fg);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: all 0.15s ease;
+    }
+
+    .links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .links svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    footer {
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+
+    footer .now {
+      color: var(--fg);
+    }
+
+    @media (max-width: 480px) {
+      .links a { padding: 0.55rem 0.85rem; font-size: 0.9rem; }
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Welcome to My GitHub Pages</h1>
-        <p>This is the home page of shantanupimpalwar.github.io</p>
+  <main>
+    <div class="eyebrow">Pune, India</div>
+
+    <h1>Shantanu Pimpalwar</h1>
+
+    <p class="tagline">
+      <strong>Senior software engineer</strong> building cloud-native and AI-powered platforms.
+      Java, Spring, React, AWS, and Generative AI. 13 years shipping products that real users depend on.
+    </p>
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/shantanu-pimpalwar-9989a773" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/pimpalwar" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.58v-2c-3.34.72-4.04-1.6-4.04-1.6-.54-1.4-1.34-1.76-1.34-1.76-1.08-.74.08-.72.08-.72 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.3 3.5 1 .12-.78.42-1.3.76-1.6-2.66-.3-5.46-1.34-5.46-5.94 0-1.32.46-2.4 1.24-3.24-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.22a11.4 11.4 0 0 1 6 0c2.28-1.54 3.28-1.22 3.28-1.22.66 1.66.24 2.88.12 3.18.78.84 1.24 1.92 1.24 3.24 0 4.62-2.8 5.62-5.48 5.92.42.36.82 1.1.82 2.22v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .3"/></svg>
+        GitHub
+      </a>
+
+      <a href="mailto:shantanupimpalwar@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+        Email
+      </a>
     </div>
+
+    <footer>
+      <span class="now">Currently:</span> leading a cloud-native + AI platform rebuild.
+      Open to senior and principal roles at product companies.
+    </footer>
+  </main>
 </body>
 </html>
